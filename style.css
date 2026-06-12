@@ -14,3 +14,34 @@
 .bg-navy{
     background-color: var(--navy);
 }
+
+/* .text-mint{
+    color: var(--mint);
+    letter-spacing: 3px;
+} */
+
+.navbar-brand{
+    color: var(--mint);
+    letter-spacing: 3px;
+    font-size: 1rem;
+}
+
+.nav-item{
+    margin-right: 5px;
+}
+
+.nav-item > .nav-link{
+    color: var(--muted);
+    font-size: 1rem;
+    transition: transform 0.5s ease-in-out ;
+}
+
+.btn-primary-custom{
+    background: linear-gradient(135deg,var(--mint),var(--sky));
+    color: var(--navy);
+}
+
+
+.nav-item>.nav-link:hover{
+    transform: translateY(-10px);
+}
