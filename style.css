@@ -1,0 +1,16 @@
+:root {
+      --navy:    #0d1b2a;
+      --slate:   #1b2d42;
+      --indigo:  #3a5a8a;
+      --sky:     #5b9bd5;
+      --mint:    #4ecdc4;
+      --off-white: #f0f4f8;
+      --muted:   #8a9ab0;
+      --card-bg: #16263b;
+      --font-display: 'Space Grotesk', sans-serif;
+      --font-mono:    'JetBrains Mono', monospace;
+    }
+
+.bg-navy{
+    background-color: var(--navy);
+}
