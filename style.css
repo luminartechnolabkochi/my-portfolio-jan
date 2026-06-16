@@ -15,6 +15,11 @@
     background-color: var(--navy);
 }
 
+.border-bottom-muted{
+    border-bottom: 1px solid var(--muted);
+    /* border-bottom-color:red; */
+}
+
 /* .text-mint{
     color: var(--mint);
     letter-spacing: 3px;
@@ -44,4 +49,92 @@
 
 .nav-item>.nav-link:hover{
     transform: translateY(-10px);
+}
+
+.text-mint{
+    color: var(--mint);
+}
+
+.text-sky{
+    color: var(--sky);
+}
+
+.text-mute{
+    color:var(--muted);
+}
+.greetings>span{
+    letter-spacing: 4px;
+}
+
+.btn-outline-primary{
+    border-color:var(--indigo) ;
+    color: var(--indigo);
+    transition: transform 0.5s ease-in-out;
+}
+
+.btn-outline-primary:hover{
+
+    border-color: var(--sky);
+    color: var(--sky);
+    background-color: var(--navy);
+    transform: translateY(-10px);
+}
+
+.hero{
+    transition: transform 0.5s ease-in-out;
+    box-shadow: -10px -10px 30px var(--muted);
+}
+
+.hero:hover{
+    transform: scale(1.05);
+
+}
+
+.bg-indigo{
+    background-color: var(--indigo);
+}
+
+.card-bg{
+    background-color: var(--card-bg);
+}
+
+
+.divider{
+    width: 15%;
+    height: 2px;
+    /* border: 2px solid white; */
+     background: linear-gradient(135deg,var(--mint),var(--sky));
+}
+
+
+.bg-mint{
+    background-color: var(--mint);
+}
+
+.text-card-bg{
+    color: var(--card-bg);
+}
+
+.border-mint{
+    border: 1px solid var(--mint);
+}
+
+.border-sky{
+    border-color: var(--sky) !important;
+}
+
+.card-body>span{
+    font-size: 12px;
+}
+
+.border-start-mint{
+ 
+    border-left: 1px solid var(--mint);
+}
+
+.badge{
+    font-size: 10px;
+    background-color: var(--indigo);
+   
+   
 }
